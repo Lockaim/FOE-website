@@ -87,6 +87,13 @@ section {
     height: auto;
 }
 
+.univers {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
 .univers img {
     width: 10%; 
     height: auto;
