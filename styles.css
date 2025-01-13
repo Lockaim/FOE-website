@@ -219,7 +219,7 @@ form button:hover {
   margin: 10px 0;
 }
 
-.timeline-img {
+.timeline-img img{
     width: 50%; /* Largeur spécifique */
     height: auto; /* Maintient les proportions */
     border-radius: 10px; /* Ajoute des coins arrondis si désiré */
