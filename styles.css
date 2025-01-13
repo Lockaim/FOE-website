@@ -148,3 +148,41 @@ form button {
 form button:hover {
     background-color: #d35400;
 }
+
+
+#timeline {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.timeline-item {
+    background-color: #1a1a1a;
+    color: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.timeline-date {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #f39c12;
+}
+
+.timeline-content img {
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 8px;
+    height: auto;
+}
+
