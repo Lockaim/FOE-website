@@ -219,4 +219,9 @@ form button:hover {
   margin: 10px 0;
 }
 
+#timeline-content img {
+    width: 50%;
+    height: auto;
+}
+
 
