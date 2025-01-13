@@ -87,6 +87,11 @@ section {
     height: auto;
 }
 
+.univers img {
+    width: 50%; 
+    height: auto;
+}
+
 .team {
     display: flex;
     justify-content: center;
