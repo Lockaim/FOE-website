@@ -219,8 +219,8 @@ form button:hover {
   margin: 10px 0;
 }
 
-.timeline-img img{
-    width: 50%; /* Largeur spécifique */
+.timeline-img img {
+    width: 20%; /* Largeur spécifique */
     height: auto; /* Maintient les proportions */
     border-radius: 10px; /* Ajoute des coins arrondis si désiré */
 }
