@@ -10,220 +10,54 @@ body {
     font-family: Arial, sans-serif;
     background-color: #121212;
     color: white;
+    line-height: 1.6;
 }
 
+/* ===== HEADER ===== */
 header {
     background-color: #1a1a1a;
-    padding: 20px;
+    padding: 15px 20px;
     display: flex;
-    justify-content: space-between;  /* Ajout pour espacer le logo et la nav */
+    justify-content: space-between;
     align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 header .logo img {
-    width: 75px; /* Réduit la taille du logo de l'entreprise */
+    width: 80px;
+    transition: transform 0.3s ease;
+}
+
+header .logo img:hover {
+    transform: scale(1.1);
 }
 
 nav ul {
-    list-style-type: none;
+    list-style: none;
     display: flex;
-    gap: 15px; /* Espace entre les éléments du menu */
-}
-
-nav ul li {
-    margin: 0;
+    gap: 20px;
 }
 
 nav ul li a {
     text-decoration: none;
     color: white;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
 }
 
-section {
-    padding: 50px 20px;
-    text-align: center;
-}
-
-.hero {
-    background-color: #333;
-    padding: 40px;
-}
-
-.hero img {
-    width: 20%;  /* Réduit la taille du logo du jeu */
-    height: auto;
-    margin-bottom: 20px;
-}
-
-.hero h1 {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
-}
-
-.hero p {
-    font-size: 1.5rem;
-    margin-bottom: 20px;
-}
-
-.btn {
-    background-color: #f39c12;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    font-size: 1.2rem;
-    border-radius: 5px;
-}
-
-.screenshots {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-top: 20px;
-}
-
-.screenshots img {
-    width: 45%;
-    height: auto;
-}
-
-#univers img {
-    width: 40%; 
-    height: auto;
-}
-
-footer {
-    background-color: #1a1a1a;
-    text-align: center;
-    padding: 20px;
-    margin-top: 30px;
-}
-
-footer a {
-    text-decoration: none;
+nav ul li a:hover {
     color: #f39c12;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-    margin-top: 30px;
+/* Ajout d'un espace pour compenser le header fixe */
+body {
+    padding-top: 70px;
 }
 
-form label {
-    font-size: 1.2rem;
-}
-
-form input, form textarea, form button {
-    width: 80%;
-    max-width: 400px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 1rem;
-}
-
-form button {
-    background-color: #f39c12;
-    color: white;
-    cursor: pointer;
-    font-size: 1.2rem;
-    transition: background-color 0.3s ease;
-}
-
-form button:hover {
-    background-color: #d35400;
-}
-
-
-#timeline {
-    padding: 50px 20px;
-    text-align: center;
-}
-
-.timeline {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-}
-
-.timeline-item {
-    background-color: #1a1a1a;
-    color: white;
-    margin: 20px 0;
-    padding: 20px;
-    border-radius: 8px;
-    width: 80%;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
-}
-
-.timeline-date {
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin-bottom: 10px;
-    color: #f39c12;
-}
-
-.timeline-content img {
-    margin-top: 10px;
-    width: 100%;
-    border-radius: 8px;
-    height: auto;
-}
-
-
-
-/* Conteneur général */
-.team-container {
-  text-align: center;
-  padding: 20px;
-  color: #fff;
-  background-color: #121212;
-}
-
-/* Grid pour aligner les membres */
-.team-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-  margin-top: 20px;
-}
-
-/* Style pour chaque membre */
-.team-member {
-  background: #1e1e1e;
-  border: 1px solid #333;
-  border-radius: 8px;
-  padding: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  text-align: center;
-}
-
-/* Avatar */
-.team-avatar {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  margin-bottom: 15px;
-  border: 3px solid #ffa500;
-}
-
-/* Rôles */
-.role {
-  font-style: italic;
-  font-weight: bold;
-  color: #ffa500;
-  margin: 10px 0;
-}
-
-#timeline-img img {
-    width: 20%; /* Largeur spécifique */
-    height: auto; /* Maintient les proportions */
-    border-radius: 10px; /* Ajoute des coins arrondis si désiré */
-    display: flex; 
-}
-
-
+/* ===== SECTIONS ===== */
+sectio
