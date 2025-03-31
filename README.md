@@ -1,2 +1,2 @@
 # FOE-website
-A website for Fragments of Emberfall, a game realized by the studio Emberfall. 
+A website for Fragments of Ember, a game realized by the studio Emberfall. 
