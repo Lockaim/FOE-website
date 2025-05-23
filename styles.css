@@ -131,6 +131,41 @@ section {
     margin-bottom: 20px;
 }
 
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px 20px;
+    background-color: #121212;
+    text-align: center;
+}
+
+.hero-card {
+    background: #1e1e1e;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    max-width: 500px;
+    flex: 1 1 300px;
+}
+
+.hero-card:hover {
+    transform: scale(1.05);
+}
+
+.hero-image {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    border: 3px solid #ffa500;
+    object-fit: cover;
+}
+
+
 /* Bouton principal */
 .btn {
     background-color: #f39c12;
