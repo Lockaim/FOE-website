@@ -1,32 +1,56 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Téléchargement - Fragment of Ember</title>
-  <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fragments of Ember | Téléchargement</title>
+    <meta name="description" content="Téléchargez Fragments of Ember, un jeu d'exploration et de puzzle captivant. Disponible sur Windows, macOS et Linux.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preload" href="assets/hero-image.png" as="image">
+    <link rel="icon" type="image/x-icon" src="assets/hero-image-transformed.png">
 </head>
 <body>
-  <header class="navbar">
-    <nav>
-      <a href="index.html">Accueil</a>
-      <a href="about.html">À propos</a>
-      <a href="documents.html">Documents</a>
-    </nav>
-    <div class="logo">🧩 Fragment of Ember</div>
-    <div class="right-buttons">
-      <a href="download.html" class="btn-download">Télécharger</a>
-      <button class="btn-lang">🌐</button>
-    </div>
-  </header>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">
+            <a href="index.html">
+                <img src="assets/logo.png" alt="Logo Emberfall" loading="lazy">
+            </a>
+        </div>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="equipe.html">L'équipe</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="a-propos.html">À propos</a></li>
+            </ul>
+        </nav>
+        <div></div>
+    </header>
 
-  <main class="download-page">
-    <h1>Télécharge le jeu</h1>
-    <p>Choisis ta plateforme et télécharge la dernière version de <strong>Fragment of Ember</strong>.</p>
+    <!-- Section Téléchargement -->
+    <section id="telechargement" class="hero-section">
+        <div class="container hero-content">
+            <img src="assets/hero-image.png" alt="Téléchargement Fragments of Ember" class="hero-image">
+            <div class="hero-text">
+                <h1>Télécharge <span>Fragments of Ember</span></h1>
+                <p style="margin-bottom: 15px;">Choisis ta plateforme pour commencer l'aventure.</p>
+                <div class="download-buttons">
+                    <a href="builds/FragmentOfEmber-Windows.zip" class="btn">💻 Windows</a>
+                    <a href="builds/FragmentOfEmber-Mac.zip" class="btn">🍎 macOS</a>
+                    <a href="builds/FragmentOfEmber-Linux.tar.gz" class="btn">🐧 Linux</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <div class="download-options">
-      <a href="builds/FragmentOfEmber-Windows.zip" class="btn-platform">💻 Windows</a>
-    </div>
-  </main>
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <p>&copy; 2025 Emberfall Studio. Tous droits réservés.</p>
+            <p><a href="contact.html">Contactez-nous</a></p>
+        </div>
+    </footer>
 </body>
 </html>
