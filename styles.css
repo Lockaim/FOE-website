@@ -82,7 +82,7 @@ nav ul li a:hover {
 }
 
 .download-buttons .btn {
-    background-color: #1877f2;
+    background-color: #f39c12;
     color: white;
     padding: 0.8em 2em;
     border-radius: 2em;
@@ -92,7 +92,7 @@ nav ul li a:hover {
 }
 
 .download-buttons .btn:hover {
-    background-color: #005ce6;
+    background-color: #f39c12;
 }
 
 
