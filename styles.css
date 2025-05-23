@@ -140,6 +140,7 @@ section {
     padding: 40px 20px;
     background-color: #121212;
     text-align: center;
+    flex-direction: column;
 }
 
 .hero-card {
@@ -151,6 +152,7 @@ section {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease;
     max-width: 500px;
+    flex-direction: column;
 }
 
 .hero-card:hover {
