@@ -54,6 +54,29 @@ nav ul li a:hover {
     color: #f39c12;
 }
 
+.download-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.download-buttons .btn {
+    background-color: #1877f2;
+    color: white;
+    padding: 0.8em 2em;
+    border-radius: 2em;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.download-buttons .btn:hover {
+    background-color: #005ce6;
+}
+
+
 /* Ajout d'un espace pour compenser le header fixe */
 body {
     padding-top: 70px;
