@@ -54,6 +54,25 @@ nav ul li a:hover {
     color: #f39c12;
 }
 
+.nav-actions {
+    display: flex;
+    align-items: center;
+}
+
+.nav-actions .btn {
+    background-color: #e94e77;
+    padding: 0.6em 1.2em;
+    border-radius: 2em;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.nav-actions .btn:hover {
+    background-color: #d43b66;
+}
+
 .download-buttons {
     display: flex;
     flex-direction: column;
